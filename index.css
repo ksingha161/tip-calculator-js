@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+}
+.heading {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  color: hsl(183, 100%, 15%);
+}
+
+.main {
+  border: 1px solid hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
+  max-width: 24.125rem;
+  border-radius: 18px;
+  margin: auto;
+}
+
+.name {
+  margin-top: 0.8125rem;
+  margin-left: 1.5rem;
+  text-transform: capitalize;
+  color: hsl(183, 100%, 15%);
+}
+
+.total {
+  display: block;
+  margin: auto;
+  width: 21.125rem;
+  line-height: 1.7rem;
+  /* font-size: 1.1rem; */
+  background: hsl(180, 24%, 93%);
+  border-radius: 5px;
+  border: none;
+}
+
+.tip-text {
+  margin-top: 0.8125rem;
+  margin-left: 1.5rem;
+  text-transform: capitalize;
+  color: hsl(183, 100%, 15%);
+}
+
+/* percentage divs */
+
+.percentage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 8px;
+}
+
+.percentage > * {
+  flex: 1 1 33%;
+}
+
+.percent {
+  max-width: 6.625rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background: hsl(183, 100%, 15%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.people {
+  margin-bottom: 1rem;
+}
+
+.tip-container {
+  border: 1px solid hsl(183, 100%, 15%);
+  border-radius: 8px;
+  background: hsl(183, 100%, 15%);
+  max-width: 21rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.925rem;
+  text-transform: capitalize;
+}
+
+.amount-text {
+  color: hsl(0, 0%, 100%);
+}
+.amount-money {
+  color: hsl(185, 41%, 84%);
+}
+
+.tip-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.925rem;
+  text-transform: capitalize;
+}
+
+.total-text {
+  color: hsl(0, 0%, 100%);
+}
+.total-money {
+  color: hsl(185, 41%, 84%);
+}
