@@ -120,3 +120,23 @@ body {
 .total-money {
   color: hsl(185, 41%, 84%);
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.reset {
+  background: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  width: 88%;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border: 1px solid hsl(183, 100%, 15%);
+  border-radius: 8px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 0.925rem;
+}
